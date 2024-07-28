@@ -33,7 +33,7 @@ def get_filename(directory):
 def record_screen(filename, duration=60):
     screen_size = pyautogui.size()
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    fps = 5.0
+    fps = 7.0
     out = cv2.VideoWriter(filename, fourcc, fps, screen_size)
 
     start_time = time.time()
@@ -68,7 +68,7 @@ def exit_program(icon, item):
 
 # Função principal
 def main():
-    icon = pystray.Icon('test', load_icon(), name, menu=setup_menu())
+    icon = pystray.Icon(name, load_icon(), name, menu=setup_menu())
     icon.run()
 
 if __name__ == "__main__":
