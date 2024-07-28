@@ -6,7 +6,7 @@ import cv2
 from PIL import Image
 import pystray
 from pystray import MenuItem as item
-from tkinter import PhotoImage, Tk
+from tkinter import Tk
 from tkinter.filedialog import askdirectory
 
 # Função para carregar o ícone personalizado
