@@ -1,5 +1,6 @@
 import os
 import time
+import sys
 import numpy as np
 import pyautogui
 import cv2
@@ -9,10 +10,27 @@ from pystray import MenuItem as item
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
+
 # Função para carregar o ícone personalizado
 def load_icon():
-    # Substitua 'path_to_icon.ico' pelo caminho para o seu arquivo de ícone
-    return Image.open(icon)
+    icon_name = 'icon.ico'
+    possible_paths = [
+        resource_path(icon_name),
+        resource_path(f'_internal/{icon_name}'),  # Adiciona a verificação na pasta _internal
+    ]
+    for path in possible_paths:
+        if os.path.exists(path):
+            return Image.open(path)
+    raise FileNotFoundError(f"Ícone {icon_name} não encontrado nos caminhos: {possible_paths}")
 
 # Função para mostrar uma janela de diálogo para escolher a pasta
 def get_directory():
@@ -72,6 +90,5 @@ def main():
     icon.run()
 
 if __name__ == "__main__":
-    icon = 'icon.ico'
     name = 'Gravador de Tela'
     main()
