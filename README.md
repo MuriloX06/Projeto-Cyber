@@ -1,6 +1,12 @@
 # 📹 Screen Recorder
 
-Welcome to the **Screen Recorder** project! This tool allows you to easily record your screen with high resolution, perfect for creating tutorials, capturing gameplay, or saving any on-screen activity.
+Welcome to the **Projeto Cyber**! This tool allows you to easily record your screen with high resolution, perfect for creating tutorials, capturing gameplay, or saving any on-screen activity.
+
+## 📥 Download
+
+You can download the [latest release](https://github.com/yourusername/repositoryname/releases/latest) or the specific file from this repository:
+
+- [Download Screen Recorder](https://github.com/yourusername/repositoryname/raw/main/path/to/yourfile.ext)
 
 ## 🌟 Features
 
@@ -46,14 +52,6 @@ You can adjust the following parameters in `screen_recorder.py`:
 - `filename`: Set the default filename for saved recordings.
 - `duration`: Define the recording duration in seconds (currently set to 60 seconds).
 
-## 🎨 Visual Enhancements
-
-To make your README more appealing, consider adding:
-
-- **Screenshots**: Capture your application in action and add them here.
-- **GIFs**: Short animations demonstrating the tool’s usage.
-- **Badges**: Display project stats, build status, or version information.
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request. For bugs or issues, open an issue on GitHub.
@@ -61,12 +59,3 @@ Contributions are welcome! If you have suggestions or improvements, please fork 
 ---
 
 Thank you for checking out the Screen Recorder project! We hope it helps you capture your screen effortlessly. 🌟
-
-### Key Enhancements
-
-- **Visual Elements**: Added emojis and headings to make the README more engaging.
-- **Instructions**: Clear steps for setup and usage.
-- **Customization**: Instructions on how to enhance the README with visual elements.
-- **Contact & License**: Essential information for users and contributors.
-
-Feel free to customize further based on your preferences or project specifics!
