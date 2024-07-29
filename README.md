@@ -4,9 +4,11 @@ Welcome to the **Projeto Cyber**! This tool allows you to easily record your scr
 
 ## 📥 Download
 
-You can download the [latest release](https://github.com/yourusername/repositoryname/releases/latest) or the specific file from this repository:
+- [Download ZIP for silent installation of Screen Recorder](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Installer/For%20silent%20installation.zip)
 
-- [Download Screen Recorder](https://github.com/yourusername/repositoryname/raw/main/path/to/yourfile.ext)
+- [Download Screen Recorder Installer](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Installer/Screen%20Recorder%20Installer.exe)
+
+- [Download Screen Recorder Portable](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Portable/Screen%20Recorder.exe)
 
 ## 🌟 Features
 
