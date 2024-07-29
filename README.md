@@ -16,6 +16,7 @@ Follow these steps to get your screen recording tool up and running:
 
 Clone this repository to your local machine:
 
+```bash
 git clone https://github.com/yourusername/screen-recorder.git
 cd screen-recorder
 
@@ -23,12 +24,14 @@ cd screen-recorder
 
 Ensure you have Python 3.6 or higher installed. Then, install the required Python libraries:
 
+```markdown
 pip install pyautogui numpy opencv-python pillow pystray
 
 ### 3. Run the Program
 
 Execute the `screen_recorder.py` script to start the screen recording:
 
+```markdown
 python screen_recorder.py
 
 An icon will appear in your system tray. Right-click the icon to start recording and choose where to save your file.
