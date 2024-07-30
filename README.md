@@ -6,6 +6,8 @@ Welcome to the **Projeto Cyber**! This tool allows you to easily record your scr
 
 - [Download ZIP for silent installation of Screen Recorder](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Installer/For%20silent%20installation.zip)
 
+To install Screen Recorder silently, you run the `hide.vbs` file in the same place as `install.bat` and `Screen Recorder Installer.exe`, which is inside the **ZIP file**. Note: Extract the **ZIP file** before starting the process mentioned above.
+
 - [Download Screen Recorder Installer](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Installer/Screen%20Recorder%20Installer.exe)
 
 - [Download Screen Recorder Portable](https://github.com/MuriloX06/Projeto-Cyber/raw/main/downloads%20apps/Portable/Screen%20Recorder.exe)
